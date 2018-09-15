@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "homepage": "https://mhidalgo83.github.io/",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-scripts": "^1.1.5",
@@ -15,7 +14,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build"
-  }
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://mhidalgo83.github.io/guess-game"
 }
