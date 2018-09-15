@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url("http://scf.usc.edu/~katiepar/itp104/project/logo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; 
+    background-size: cover;
+    height: 450px;
+}
+
+.container {
+    position: relative;
+    top: 280px;
+}
