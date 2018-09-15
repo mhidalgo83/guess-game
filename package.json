@@ -15,7 +15,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "source -d build"
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://mhidalgo83.github.io/ReactGuessGame"
+  "homepage": "https://mhidalgo83.github.io/guess-game"
 }
